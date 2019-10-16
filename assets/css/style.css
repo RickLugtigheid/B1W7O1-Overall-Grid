@@ -1,0 +1,44 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 5% 30% 30% 30% 5%;
+    grid-template-rows: 200px 400px 100px 400px 50px;
+}
+
+.logo{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.nav{
+    grid-column-start: 3;
+    grid-column-end: 6;
+}
+.banner{
+    grid-column-start: 2;
+    grid-column-end: 6;
+}
+.bannerBg{
+    background-color: lightskyblue;
+    grid-column-start: 1;
+    grid-column-end: 6;
+}
+.blackLine{
+    background-color: black;
+    grid-column-start: 1;
+    grid-column-end: 6;
+}
+.item1{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.item2{
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+.item3{
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+.footer{
+    grid-column-start: 1;
+    grid-column-end: 6;
+}
